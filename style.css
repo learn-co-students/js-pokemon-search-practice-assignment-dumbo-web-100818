@@ -10,6 +10,12 @@ body {
   margin-top: 50px;
 }
 
+/* #pokemon-container{
+  width:230px;
+  margin:10px;
+  background:#fecd2f;
+  color:#2d72fc} */
+
 #pokemon-search-form {
   width: 500px;
   margin: auto;
