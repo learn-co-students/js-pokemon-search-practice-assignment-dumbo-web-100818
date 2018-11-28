@@ -32,9 +32,12 @@ input:focus {
 }
 
 .pokemon-container {
-  float: left;
-  width: 250px;
-  margin: auto;
+  /* float: left; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 90%;
+
 }
 
 .center-text {
@@ -43,4 +46,19 @@ input:focus {
 
 .flip-image {
   color: #2d72fc;
+}
+
+
+.pokemon-pic {
+  max-width: 55%;
+  max-height: 55%;
+}
+
+div {
+ display: inline-block;
+}
+
+.poke {
+  border: 1px dotted blue;
+  border-radius: 5px;
 }
